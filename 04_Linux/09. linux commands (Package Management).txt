@@ -1,0 +1,88 @@
+  370  tree /var/log
+  371  curl https://rpmfind.net/linux/centos/7.9.2009/os/x86_64/Packages/tree-1.6.0-10.el7.x86_64.rpm -o tree-1.6.0-10.el7.x86_64.rpm
+  372  ls
+  373  rpm -ivh tree-1.6.0-10.el7.x86_64.rpm
+  374  tree /var/log/
+  375  clear
+  376  curl https://rpmfind.net/linux/centos/7.9.2009/os/x86_64/Packages/httpd-2.4.6-95.el7.centos.x86_64.rpm -o httpd-2.4.6-95.el7.centos.x86_64.rpm
+  377  ls
+  378  rpm -ivh httpd-2.4.6-95.el7.centos.x86_64.rpm
+  379  clear
+  380  rpm --help
+  381  clear
+  382  rpm -qa
+  383  clear
+  384  rpm -qa | grep tree
+  385  rpm -e tree-1.6.0-10.el7.x86_64
+  386  rpm -qa | grep tree
+  387  tree
+  388  clear
+  389  cd /etc/yum.repos.d/
+  390  ls
+  391  cat CentOS-Base.repo
+  392  clear
+  393  yum search httpd
+  394  cd
+  395  clear
+  396  yum install httpd
+  397  clear
+  398  yum remove httpd
+  399  yum install httpd
+  400  clear
+  401  yum search nginx
+  402  yum install nginx
+  403  clear
+  404  yum install jenkins
+  405  ls /etc/yum.repos.d/
+  406  clear
+  407  yum install wget -y
+  408  sudo wget -O /etc/yum.repos.d/jenkins.repo     https://pkg.jenkins.io/redhat-stable/jenkins.repo
+  409  cat /etc/yum.repos.d/jenkins.repo
+  410  rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+  411  yum install jenkins java-1.8.0-openjdk-devel -y
+  412  yum upgrade
+
+  // Executed:
+  299  cat /etc/os-release
+  300  rpm -qa
+  301  dpkg -l
+  302  clear
+  303  telnet
+  304  arch
+  305  uname -m
+  306  curl https://rpmfind.net/linux/centos-stream/9-stream/AppStream/x86_64/os/Packages/telnet-0.17-85.el9.x86_64.rpm -o telnet-0.17-85.el9.x86_64.rpm
+  307  ls
+  308  rpm -ivh telnet-0.17-85.el9.x86_64.rpm
+  309  telnet
+  310  rpm -qa | grep telnet
+  311  rpm -e telnet-0.17-85.el9.x86_64
+  312  telnet
+  313  clear
+  314  wget https://rpmfind.net/linux/centos-stream/9-stream/AppStream/x86_64/os/Packages/httpd-2.4.57-6.el9.x86_64.rpm
+  315  ls
+  316  rpm -ivh httpd-2.4.57-6.el9.x86_64.rpm
+  317  clear
+  318  cd /etc/yum.repos.d/
+  319  ls
+  320  cd
+  321  yum search httpd
+  322  yum install httpd
+  323  dnf install httpd
+  324  dnf remove httpd
+  325  dnf install httpd -y
+  326  dnf --help
+  327  yum upgrade
+  328  clear
+  329  yum install jenkins
+  330  ls /etc/yum.repos.d/
+  331  sudo wget -O /etc/yum.repos.d/jenkins.repo     https://pkg.jenkins.io/redhat-stable/jenkins.repo
+  332  cat ‘/etc/yum.repos.d/jenkins.repo
+  333  cat /etc/yum.repos.d/jenkins.repo
+  334  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+  335  sudo yum upgrade
+  336  clear
+  337  dnf repolist
+  338  dnf install epel-release -y
+  339  dnf repolist
+  340  dnf history
+  341  history
