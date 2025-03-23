@@ -1,0 +1,43 @@
+    1  vi /etc/hostname
+    2  hostname finance
+    3  exit
+    4  clear
+    5  cat /etc/os-release
+    6  clear
+    7  yum install httpd wget vim unzip zip -y
+    8  clear
+    9  systemctl start httpd
+   10  systemctl enable httpd
+   11  ip addr show
+   12  clar
+   13  clear
+   14  cd /var/www/html/
+   15  ls
+   16  vim index.html
+   17  systemctl restart httpd
+   18  cd /tmp/
+   19  wget https://www.tooplate.com/zip-templates/2135_mini_finance.zip
+   20  unzip 2135_mini_finance.zip
+   21  ls
+   22  cd 2135_mini_finance/
+   23  clear
+   24  pwd
+   25  ls
+   26  cp -r * /var/html/
+   27  cp -r * /var/www/html/
+   28  ls /var/www/html
+   29  systemctl restart httpd
+   30  systemctl status httpd
+   31  ls /var/www/html/
+   32  systemctl status firewalld
+   33  systemctl stop firewalld
+   34  systemctl disable firewalld
+   35  clear
+   36  systemctl status httpd
+   37  ls /var/www/html/
+   38  ip addr show
+   39  cleAR
+   40  CLEAR
+   41  clear
+   42  cd
+   43  history
