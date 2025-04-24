@@ -1,0 +1,22 @@
+ifconfig
+ip addr show
+ping 192.168.40.12
+ping db01
+tracert www.google.in 
+netstat -antp // it will show all the TCP open ports
+ps -ef | grep apache2
+netstat -antp | grep 3336
+ss -tunlp // open ports on machine
+apt  install nmap -y // it will be useful when we are trying to connect to other machine to check that port is open or not
+nmap localhost
+nmap db01
+dig www.google.com
+nslookup www.google.com
+route -n // it will show the gateways
+route
+arp // view or add the content to the kernels ARP table
+mtr www.google.com // same shows hops or trace
+namp db01
+telnet 192.168.40.12 22
+]
+quit
