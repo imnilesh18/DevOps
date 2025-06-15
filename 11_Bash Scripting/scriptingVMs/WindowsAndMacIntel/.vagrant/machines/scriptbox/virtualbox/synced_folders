@@ -1,0 +1,1 @@
+{"rsync":{"/vagrant":{"type":"rsync","guestpath":"/vagrant","hostpath":"D:/My Folder/0. Coding/DevOps/11_Bash Scripting/scriptingVMs/WindowsAndMacIntel","disabled":false,"__vagrantfile":true,"owner":"vagrant","group":"vagrant"}}}
